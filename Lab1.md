@@ -6,4 +6,9 @@
  
  **2. Connnecting to the Remote Server:**
  If you are on a Windows computer you first have to download git for Windows which you can find from this [Link](https://gitforwindows.org/), proceed to download and install it with all the default features. Once you have downloaded and installed git, open a new window in VS Code, and then click on the "new terminal" button at the top of the screen. 
+ ![image](https://github.com/aalsadah/cse15l-lab-reports/blob/main/terminal.jpg)
+ Once you have the terminal open click on the small arrow and select Git Bash.
+ ![image](https://github.com/aalsadah/cse15l-lab-reports/blob/main/gitbash.jpg)
+
+ 
  
