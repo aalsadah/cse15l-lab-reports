@@ -32,9 +32,13 @@
  - exit :this command exists the ssh
  ~~~
  Here are some of these commands being used:
+ 
  ![image](pwd.png)
+ 
  ![image](ls.png)
+ 
  ![image](cat.png)
+ 
  ![image](exit.png)
  
  
