@@ -11,7 +11,11 @@
  ![image](gitbash.jpg)
  The Git Bash terminal should look like this:
  ![image](gitbashterminal.jpg)
- Procees to type in ssh followed by your own unique lab username from your cse15l account. And then type in the password you set for yourself. 
+ Proceed to type in
+ ~~~
+ ssh cs15lsp23zz@ieng.ucsd.edu
+ ~~~
+ but using your own unique lab username from your cse15l account. And then type in the password you set for yourself. 
  ![image](password.jpg)
  The terminal will ask for your password, so type it into the terminal, upon typing in the correct password you will get the following screen. 
  ![image](loggedin.jpg)
@@ -19,15 +23,15 @@
  
  **3. Typing in some commands:**
  Once you are in take the time to try some commands in the terminal. Some of the commands you can try include:
- - cd~
- - cd
- - ls
- - pwd
- - cp
- - ls -lat
- - ls -a
- - cat /home/linux/ieng6/cs15lsp23/public/hello.txt
- - exit
+ ~~~
+ - cd :this command stands for change directory, it changes the current directory into the path you type in after
+ - ls :this command stands for list, and it lists all the files in the current directory.
+ - pwd :this commands prints the current working directory
+ - cp :this command copies a file to a specific directory
+ - cat /home/linux/ieng6/cs15lsp23/public/hello.txt :this command will concatenate the file hello.txt
+ - exit :this command exists the ssh
+ ~~~
+ Here are some of these commands being used:
 
 
  
