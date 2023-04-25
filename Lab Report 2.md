@@ -34,8 +34,11 @@ The second test on the other hand does not fail:
 The symptoms of this bug seem to be that the program does not effectively reverse the array, as can be seen from the output of the first test which failed, the program only revreses the first half of the array and not the second. Below is a fix for the bug including a before and after of the code. 
 
 **before**
+
 ![image](before.png)
+
 **after**
+
 ![image)(after.png)
 
 ## Part 3
