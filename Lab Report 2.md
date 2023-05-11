@@ -1,7 +1,7 @@
 # Lab Report 2 - Servers and Bugs 
 
 ## Part 1
-**This is how I implemented the StringSearch Server, depending on what you add as the path you can get three diffrent outputs, If you do not enter anything you get the base which is nothing, using the add-message path correctly returns the server with the message you entered. Entering anything else returns an error message. 
+**This is how I implemented the StringSearch Server, depending on what you add as the path you can get three diffrent outputs, If you do not enter anything you get the base which is nothing, using the add-message path correctly returns the server with the message you entered. Entering anything else returns an error message.**
 
 
 ```java
@@ -36,7 +36,7 @@ public class StringServer {
     }
 }
 ```
-**ScreenShots of /add-message in use!
+**ScreenShots of /add-message in use!**
 
 
 
@@ -52,7 +52,7 @@ I choose to work with the buggy reverseInPlace.
   }
 ~~~
 
-**TESTS
+**TESTS**
 
 ~~~ java
 
