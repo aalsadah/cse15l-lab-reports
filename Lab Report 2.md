@@ -35,6 +35,14 @@ public class StringServer {
 ## Part 2
 I choose to work with the buggy reverseInPlace.
 
+~~~java
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+~~~
+
 ~~~ java
 
 import static org.junit.Assert.*;
@@ -80,13 +88,11 @@ The symptoms of this bug seem to be that the program does not effectively revers
 ```java
 
   static void reverseInPlace(int[] arr) {
-    int[] temp = new int[arr.length];
-    for(int i = 0; i < arr.length/2; i += 1) {
-      int val = arr[arr.length-i-1];
-      arr[arr.length - i - 1]=arr[i];
-      arr[i]=val;
+    for(int i=0; i<arr.length/2; i++){
+      int temp = arr[i];
+      arr[i]=arr[arr.length-i-1];
+      arr[arr.length-i-1]=temp;
     }
-    arr = temp;
   }
 
 ```
