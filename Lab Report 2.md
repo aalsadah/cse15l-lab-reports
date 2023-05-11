@@ -43,6 +43,8 @@ I choose to work with the buggy reverseInPlace.
   }
 ~~~
 
+**TESTS
+
 ~~~ java
 
 import static org.junit.Assert.*;
