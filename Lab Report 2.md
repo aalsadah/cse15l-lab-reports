@@ -42,6 +42,8 @@ public class StringServer {
 
 ![image](second.png)
 
+Using add-message more will add to the servers lines, the methods being used in these examples are getQuery(), getPath(), and handleRequest(URI url). 
+
 ## Part 2
 I choose to work with the buggy reverseInPlace.
 
