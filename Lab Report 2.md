@@ -1,34 +1,43 @@
 # Lab Report 2 - Servers and Bugs 
 
 ## Part 1
+**This is how I implemented the StringSearch Server, depending on what you add as the path you can get three diffrent outputs, If you do not enter anything you get the base which is nothing, using the add-message path correctly returns the server with the message you entered. Entering anything else returns an error message. 
+
+
 ```java
 import java.io.IOException;
 import java.net.URI;
-import java.util.ArrayList;
 
 class Handler implements URLHandler{
-    ArrayList<String> SearchList = new ArrayList<String>();
+    String word1String= "";
     public String handleRequest(URI url){
-        if(url.getPath().contains("/add")){
+        if(url.getPath().equals("/add-message")){
+            
             String[] param = url.getQuery().split("=");
-            if
-
+            if(param[0].equals("s")){
+                word1String+= param[1] +"\n";
+                return word1String;
+            }
         }
-
+        else{
+            return word1String;
+        }
+        return "Please use the add-message path";
     }
 }
-```
 public class StringServer {
     public static void main(String[] args) throws IOException{
         if(args.length == 0){
             System.out.println("Missing port number! try any number between 1024 and 49151");
             return;
         }
-
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
 }
+```
+**ScreenShots of /add-message in use!
+
 
 
 
