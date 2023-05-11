@@ -38,8 +38,9 @@ public class StringServer {
 ```
 **ScreenShots of /add-message in use!**
 
+![image](HelloWorld.png)
 
-
+![image](second.png)
 
 ## Part 2
 I choose to work with the buggy reverseInPlace.
