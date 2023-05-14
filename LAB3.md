@@ -1,5 +1,5 @@
 ## Four GREP Command-line Options
-
+**1.**
 ```grep -i``` This command line option ignores lowercase and uppercase. You can see in the second example that the search for the world "clinical", shows the word "Clinical" with the only diffrence being upper vs lower case. -i can be useful if you do not care about the case of a word and are just looking for it. I found this information on [Wikibooks](https://en.wikibooks.org/wiki/Grep)
 ``` 
 -bash-4.2$ grep -i "celiac" pmed.0010023.txt
@@ -22,4 +22,47 @@
         also seen in two of the patients who were (clinical)ly tolerant to oats. The authors suggest
         symptoms or even of enhanced susceptibility to (clinical) oats intolerance.
 ```
+
+**2.**
+```grep -v``` This command inverts the search, so if you do a search for the letter "i" you will get every word that does **not** contain an i. I found this information on [Wikibooks](https://en.wikibooks.org/wiki/Grep)
+```
+-bash-4.2$ grep -v "i" journal.pbio.0020001.txt
+
+
+
+
+
+
+
+
+
+
+
+        2002).
+
+
+            Canada?
+
+
+
+
+        programs.
+
+
+        journals (
+        Nature and
+        to the top 11–20 journals.
+        In
+
+
+        A Long Road Yet to Travel
+        world.
+
+
+
+
+
+
+```
+
 
