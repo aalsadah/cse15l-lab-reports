@@ -6,4 +6,6 @@
 
 [Lab Report 4](https://aalsadah.github.io/cse15l-lab-reports/lab4.html)
 
+[Lab Report 5](https://aalsadah.github.io/cse15l-lab-reports/lab5.html)
+
 [Markdown Cheet Sheet](https://commonmark.org/help/)
