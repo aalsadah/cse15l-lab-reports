@@ -34,4 +34,7 @@ Second bug
 ![Image](fix2.png)
 ![Image](term.png)
 
+## Part 2 - Reflection
+Learning how to use Bash was extremely engaging and fun, I really liked learning how to write bash scripts and really glad this class has taught me the basics of scripting. I specifically liked learning about how you can use input/output in bash, running programms autonomously is really fun, cool, and interesting. Another thing I learned which I found really cool was how you can stop your program mid-run using Vim and check for variable or object values, I found that topic super cool, and I learning about that will come in very hand I am sure when it comes to testing and debugging my code. I also wanna say thank you to Proffesor Joe and all the amazing TA's for one of the most fun, engaging, and helpful classes I've taken all year. Thank you!
+
 
