@@ -27,7 +27,11 @@ First bug
 Second bug
 ![Image](bug2.png)
 
-**TA:** Hello, thank you for sending all these screenshots, after looking at both your Java program and Bash script, I can give you some help on how to fix the bugs. For the first bug I suggest that you look at ```LineFinder.java``` and try to catch how the lines are being counted inside of the while loop, a slight fix would make sure that you would start counting the lines the way you want your program to function. The second bug has to do with the ```output.sh``` file, can you remember any command from class that removes a directory? perhaps using that command at the start of your script could solve the bug.
-**Student:** Thank you for all the help
+**TA:** Hello, thank you for sending all these screenshots, after looking at both your Java program and Bash script, I can give you some help on how to fix the bugs. For the first bug I suggest that you look at ```LineFinder.java``` and try to trace how the lines are being counted inside of the while loop, a slight fix would make sure that you would start counting the lines the way you want your program to function. The second bug has to do with the ```output.sh``` file, can you remember any command from class that removes a directory? perhaps using that command at the start of your script could solve the bug.
+
+**Student:** Thank you for all the help I have fixed my ```LineFinder.java``` and my ```output.sh``` now the bugs I spotted are no longer there and the program is running as I intended. The line numbers are being counted properly and I am no longer getting the ```mkdir: cannot create directory ‘Search_Result’: File exists``` message. 
+![Image](fix1.png)
+![Image](fix2.png)
+![Image](term.png)
 
 
